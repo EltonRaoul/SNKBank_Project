@@ -2,6 +2,7 @@ com\bankingproject\controllers\Client\ClientController.class
 com\bankingproject\App.class
 com\bankingproject\Views\ViewFactory.class
 com\bankingproject\Models\Model.class
+com\bankingproject\controllers\Client\TransactionController.class
 com\bankingproject\controllers\LoginController.class
 module-info.class
 com\bankingproject\controllers\Client\ClientMenuController.class

@@ -17,7 +17,7 @@ import javafx.scene.layout.BorderPane;
 public class ClientController implements Initializable{
 
     @FXML
-    private BorderPane Client_parent;
+    public BorderPane Client_parent;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

@@ -13,7 +13,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="850.0" styleClass="dashboard" stylesheets="@../../Styles/dashboard.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.bankingproject.controllers.Client.DashboardController">
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="850.0" styleClass="dashboard" stylesheets="@../../Styles/dashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bankingproject.controllers.Client.DashboardController">
    <children>
       <Text fx:id="user_name" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="user_name" text="Hi, Michel" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="30.0" />
       <Label fx:id="login_date" styleClass="date_lbl" text="Today, 2025-07-29" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="27.0" />
@@ -51,7 +51,7 @@
             </AnchorPane>
          </children>
       </HBox>
-      <VBox layoutX="625.0" layoutY="110.0" prefHeight="180.0" prefWidth="210.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
+      <VBox layoutX="625.0" layoutY="110.0" prefHeight="180.0" prefWidth="210.0" styleClass="new_trans_container" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
          <children>
             <VBox prefHeight="200.0" prefWidth="100.0" styleClass="acc_summary_container">
                <children>
