@@ -1,0 +1,29 @@
+package com.bankingproject;
+
+import com.bankingproject.Models.Model;
+import com.bankingproject.Views.ViewFactory;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+/**
+ * JavaFX App
+ */
+public class App extends Application {
+
+    private static Scene scene;
+
+    @Override
+    public void start(Stage stage) throws IOException {
+        Model.getInstance().getViewFactory().showLoginWindow();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+
+}
