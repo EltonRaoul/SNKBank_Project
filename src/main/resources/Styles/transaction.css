@@ -17,7 +17,7 @@
 
 .transactions_container .list-view {
     -fx-background-color: #EEEEEE;
-    padding: 10;
+    -fx-padding: 10;
 }
 
 .transactions_container .list-cell {
